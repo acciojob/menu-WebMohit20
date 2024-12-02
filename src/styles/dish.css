@@ -1,0 +1,42 @@
+.dish-container{
+    /* border:1px solid; */
+    margin-top:20px;
+    padding:10px 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:30px;
+}
+
+.dish-detail{
+    padding: 10px;
+    display: flex;
+}
+
+.image{
+    margin-right:15px;
+    
+    img{
+        display: block;
+        width: 150px;
+        height: 150px;
+        border:5px solid gold;
+    }
+}
+
+.detail{
+
+    .detail-heading{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 5px;
+        border-bottom: 2px solid brown;
+        .price{
+            color:gold;
+        }
+    }
+    p{
+        margin-top:15px;
+        
+    }
+}
